@@ -1,0 +1,26 @@
+v1
+Default breakout
+player can move left and right, with boost - done
+ball moves - done
+load blocks from map file - done
+collision between ball and player
+collision between ball and blocks
+score - done
+level loader - done
+add walls - done
+
+notes:
+1280 / 3 = 426.66666666666666666666666666667
+426.66666666666666666666666666667 / 64 = 6.6666666666666666666666666666667
+6 bricks wide
+
+v2
+menu
+2 player
+options
+full screen
+window size
+
+v3
+power ups
+splash screen

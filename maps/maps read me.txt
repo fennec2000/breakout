@@ -1,0 +1,10 @@
+// maps are set up like this
+// column, row, strength
+// make a new line for each block
+// row min = 0 max = x
+// column min = 0 max = x
+// strength min = 1 max = 6
+0, 0, 1
+0, 1, 2
+1, 0, 1
+1, 1, 2
