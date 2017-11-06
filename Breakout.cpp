@@ -359,7 +359,7 @@ void main()
 				}
 
 				// player keybindings
-				if (myEngine->KeyHeld(keyPlayerLeft))
+				if (myEngine->KeyHeld(keyPlayerLeft) && player->GetX() > brickOffsetX - unbreakableBrickSize)
 				{
 					// Calculated valuve of the player movement
 					float playerTravel = -playerSpeed * frameTime * gameRate;
@@ -371,7 +371,7 @@ void main()
 
 					player->MoveX(playerTravel);
 				}
-				else if (myEngine->KeyHeld(keyPlayerRight))
+				else if (myEngine->KeyHeld(keyPlayerRight) && player->GetX() < brickOffsetX + brickMaxGridWidth * brickWidth + unbreakableBrickSize - playerWidth)
 				{
 					// Calculated valuve of the player movement
 					float playerTravel = playerSpeed * frameTime * gameRate;
